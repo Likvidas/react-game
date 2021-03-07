@@ -1,0 +1,62 @@
+body {
+  box-sizing: border-box;
+  background-color: #5f5f5f;
+}
+
+.app {
+  padding: 40px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
+}
+
+.play-field {
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  border: 2px solid #000000;
+  position: relative;
+}
+
+.settings-field {
+  width: 500px;
+}
+
+.shake {
+  -webkit-animation: 1.2s ease-in-out 0s normal none infinite running shake;
+  animation: 1.2s ease-in-out 0s normal none infinite running shake;
+}
+
+@-webkit-keyframes shake {
+  0%,
+  50%,
+  100% {
+    transform: rotate(0deg);
+  }
+  10%,
+  30% {
+    transform: rotate(-10deg);
+  }
+  20%,
+  40% {
+    transform: rotate(10deg);
+  }
+}
+
+@keyframes shake {
+  0%,
+  50%,
+  100% {
+    transform: rotate(0deg);
+  }
+  10%,
+  30% {
+    transform: rotate(-10deg);
+  }
+  20%,
+  40% {
+    transform: rotate(10deg);
+  }
+}

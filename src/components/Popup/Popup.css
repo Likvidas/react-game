@@ -1,0 +1,18 @@
+.popup__inner {
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: column wrap;
+  row-gap: 30px;
+  background-color: #cf3535;
+}
+
+.popup-message {
+  padding: 40px;
+  color: #ffffff;
+  text-align: center;
+  
+}

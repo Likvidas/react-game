@@ -1,0 +1,29 @@
+.snake-food {
+  position: absolute;
+  width: 2%;
+  height: 2%;
+  background-color: rgb(15, 192, 109);
+  border: 1px solid #ffffff;
+}
+
+.pulse {
+  -webkit-animation: pulse 2s infinite;
+  animation: pulse 2s infinite;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0px rgba(15, 192, 109, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 0 40px rgba(207, 241, 207, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0px rgba(15, 192, 109, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 0 40px rgba(207, 241, 207, 0);
+  }
+}

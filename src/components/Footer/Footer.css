@@ -1,0 +1,53 @@
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  background-color: #554646;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-inner {
+  width: 90%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.year {
+  font-size: 40px;
+}
+
+.github-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -moz-column-gap: 6px;
+       column-gap: 6px;
+}
+
+.github-logo {
+  width: 42px;
+  height: 42px;
+  background: url(../../assets/img/github-logo.svg) center no-repeat ;
+  background-size: cover;
+}
+
+.course-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+
+.course-logo {
+  width: 270px;
+  height: 100px;
+  background: url(../../assets/img/rs_school_js.svg) center no-repeat;
+  background-size: cover;
+}

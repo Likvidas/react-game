@@ -1,0 +1,7 @@
+.snake-body {
+  position: absolute;
+  width: 2%;
+  height: 2%;
+  background-color: #000000;
+  border: 1px solid #ffffff;
+}
