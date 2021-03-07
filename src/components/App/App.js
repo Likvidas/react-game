@@ -4,6 +4,7 @@ import Game from '../Game';
 import Popup from '../Popup';
 import Result from '../Result';
 import Timer from '../Timer';
+import Footer from '../Footer/Footer';
 
 const App = () => {
 
@@ -23,6 +24,7 @@ const App = () => {
         <Result point={point}/>
         <Timer isMoving={ isMoving }/>
       </div>
+      <Footer />
     </div>
   );
 }
